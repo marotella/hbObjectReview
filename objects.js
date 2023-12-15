@@ -103,9 +103,12 @@ function personName() {
   
   function maxedOut(obj) {
     // REPLACE THIS WITH YOUR CODE
-  
+    for(item in obj){
+        obj[item] = "max"
+    }
     return obj;
   }
+//   console.log(maxedOut(someUser))
   
   /// ////////////// PROBLEM 8 ///////////////////
   
