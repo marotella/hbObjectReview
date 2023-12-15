@@ -53,9 +53,8 @@ function personName() {
   const person = {};
   
   person['firstName'] = 'sally';
-  
-  // Code Here
-  
+    // Code Here
+  const userFirstName = person.firstName
   /// ////////////// PROBLEM 5 ////////////////////
   
   // In the function updateUser, change the user parameter's name to Ryan, change the value of pwHash to superSafe
