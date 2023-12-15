@@ -24,8 +24,8 @@ function personName() {
       age: 29,
       location: 'Orem, UT',
     };
-    return; // Code Here
-  }
+    return person["location"]
+  } //REMEMBER to use "" even if they are not used for the key
   
   /// ////////////// PROBLEM 3 ////////////////////
   
