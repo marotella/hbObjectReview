@@ -200,7 +200,11 @@ function personName() {
   // Then return the sum of the two numbers.
   
   // REPLACE THIS WITH YOUR CODE
-  
+  function addition (arr){
+    const [num1 , num2] = arr
+    sum = num1 + num2
+    return sum
+  }
   /// ////////////// PROBLEM 15 ////////////////////
   
   // Create a function called zooAnimals that will take an object parameter
