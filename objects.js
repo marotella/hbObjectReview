@@ -172,7 +172,9 @@ function personName() {
   // Then, add a new key-value pair {copy: true} to the end of the copy and return the copy.
   
   function copyObject(obj) {
-    // REPLACE THIS WITH YOUR CODE
+    const objCopy = {...obj}
+    objCopy.copy = true;
+    return objCopy
   }
   
   /// ////////////// PROBLEM 13 ////////////////////
