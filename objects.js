@@ -119,7 +119,19 @@ function personName() {
   */
   
   //Code Here
+
+  const fakeObj = {
+    thing: 4,
+    stuff: 2
+  }
+  function double (obj){
+    for (let count in obj ){
+        obj[count] = obj[count]*2
+    }
+    return obj
+    }
   
+  console.log(double(fakeObj))
   /// ////////////// PROBLEM 9 ///////////////////
   
   /*
