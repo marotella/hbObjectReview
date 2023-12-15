@@ -140,7 +140,12 @@ function personName() {
   */
   
   //Code Here
-  
+
+  function removePassword (user){
+    delete user.pwHash
+    return user
+}
+  console.log(removePassword(someUser))
   /// ////////////// PROBLEM 10 ////////////////////
   
   // Here we have a function called getValues that will take in an object.
