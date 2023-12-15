@@ -35,6 +35,16 @@ function personName() {
   */
   
   //Code here
+
+  const favoriteThings = {
+    band: "The Who",
+    food: "Blue Crab",
+    person: "Grammy",
+    book: "His Dark Materials",
+    movie: "The Pianist",
+    holiday: "Christmas Eve"
+
+  }
   
   /// ////////////// PROBLEM 4 ////////////////////
   
