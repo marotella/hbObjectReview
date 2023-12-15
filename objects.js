@@ -161,7 +161,9 @@ function personName() {
   // Then, add the string "copy" to the end of the copy and return the copy.
   
   function copyArray(arr) {
-    // REPLACE THIS WITH YOUR CODE
+    const arrayCopy = [... arr]
+    arrayCopy.push("copy")
+    return arrayCopy
   }
   
   /// ////////////// PROBLEM 12 ////////////////////
