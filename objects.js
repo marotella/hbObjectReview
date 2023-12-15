@@ -191,7 +191,8 @@ function personName() {
   // animalCount object.
   
   // REPLACE THIS WITH YOUR CODE
-  
+ const {cats, dogs, mice} = animalCount
+ console.log(cats)
   /// ////////////// PROBLEM 14 ////////////////////
   
   // Write a function called addition that takes in an array containing 2 numbers.
