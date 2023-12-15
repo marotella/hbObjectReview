@@ -61,14 +61,18 @@ function personName() {
   // and change the value of username to ryan2020. After you have updated all the values return the object.
   
   // The existing user looks like this:
-  // const someUser = {
-  //   name: 'Sally Rally',
-  //   pwHash: 'U+Ldlngx2BYQk',
-  //   username: 'SallyRally801'
-  // };
+  const someUser = {
+    name: 'Sally Rally',
+    pwHash: 'U+Ldlngx2BYQk',
+    username: 'SallyRally801'
+  };
   
   function updateUser(user) {
     // Code Here
+    user.name = "Ryan"
+    user.pwHash = "superSafe"
+    user.username = "ryan2020"
+    return user
   }
   
   /// ////////////// PROBLEM 6 ////////////////////
