@@ -253,3 +253,14 @@ function personName() {
       2. Loop over the accidents array (which is a property of the myCar object).
       3. For each accident, change atFaultForAccident from true to false.
   */
+
+
+      function recordCleaner (car){
+        for (const accident of car.accidents){
+            accident.atFaultForAccident = false;
+        }
+        return car
+      }
+
+
+console.log(recordCleaner(myCar))
