@@ -80,19 +80,21 @@ function personName() {
   // In the function updateProfile, update the value of the given property to the given value. Return the updated object.
   //
   // The existing profile looks like this:
-  // const userProfile = {
-  //    email: 'test@google.com',
-  //    pwHash: 'V-9n5bQyu81z0',
-  //    location: 'Denver, CO'
-  // }
+  const userProfile = {
+     email: 'test@google.com',
+     pwHash: 'V-9n5bQyu81z0',
+     location: 'Denver, CO'
+  }
   //
   // So updateProfile(userProfile, 'email', 'blah@yahoo.com') would update the email to 'blah@yahoo.com'
   
   function updateProfile(profile, property, value) {
     // Code here
+    profile[property] = value //must use bracket notation because property is representing a variable
     return profile;
   }
   
+  updateProfile(userProfile, 'email', 'blah@yahoo.com') 
   /// ////////////// PROBLEM 7 ////////////////////
   
   // Inside the maxedOut function, loop over the given object using a for...in loop
