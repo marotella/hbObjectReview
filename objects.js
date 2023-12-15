@@ -213,7 +213,11 @@ function personName() {
   // Using object destructuring, return the total sum of the counts of these animals
   
   // REPLACE THIS WITH YOUR CODE
-  
+  function zooAnimals (obj){
+    const {lion, tiger, bear} = obj
+    const total = lion + tiger + bear
+    return total
+  }
   /// ////////////// PROBLEM 16 ///////////////////
   
   // Do not edit the code below.
